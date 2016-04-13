@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AA8F0081C097DB8005ACCBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8F0071C097DB8005ACCBD /* AppDelegate.swift */; };
+		3AA8F00A1C097DB8005ACCBD /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8F0091C097DB8005ACCBD /* PlayerViewController.swift */; };
+		3AA8F00F1C097DB8005ACCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8F00E1C097DB8005ACCBD /* Assets.xcassets */; };
+		3AA8F0121C097DB8005ACCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8F0101C097DB8005ACCBD /* LaunchScreen.storyboard */; };
+		3AC696721C0A808C005A63F8 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC696701C0A808C005A63F8 /* pause.png */; };
+		3AC696731C0A808C005A63F8 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC696711C0A808C005A63F8 /* play.png */; };
+		3AC696751C0A811D005A63F8 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC696741C0A811D005A63F8 /* Track.swift */; };
+		3AC696771C0A816C005A63F8 /* SoundCloudAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC696761C0A816C005A63F8 /* SoundCloudAPI.swift */; };
+		3AC6967B1C0A8659005A63F8 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6967A1C0A8659005A63F8 /* next.png */; };
+		3AC6967D1C0A865E005A63F8 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC6967C1C0A865E005A63F8 /* previous.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AA8F0041C097DB8005ACCBD /* Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Play.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA8F0071C097DB8005ACCBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AA8F0091C097DB8005ACCBD /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		3AA8F00E1C097DB8005ACCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA8F0111C097DB8005ACCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AA8F0131C097DB8005ACCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC696701C0A808C005A63F8 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		3AC696711C0A808C005A63F8 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		3AC696741C0A811D005A63F8 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		3AC696761C0A816C005A63F8 /* SoundCloudAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundCloudAPI.swift; sourceTree = "<group>"; };
+		3AC6967A1C0A8659005A63F8 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		3AC6967C1C0A865E005A63F8 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AA8F0011C097DB8005ACCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA8EFFB1C097DB8005ACCBD = {
+			isa = PBXGroup;
+			children = (
+				3AA8F0061C097DB8005ACCBD /* Play */,
+				3AA8F0051C097DB8005ACCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AA8F0051C097DB8005ACCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA8F0041C097DB8005ACCBD /* Play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AA8F0061C097DB8005ACCBD /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				3AC6966F1C0A8072005A63F8 /* Images */,
+				3AC6966E1C0A7FFA005A63F8 /* API */,
+				3AC6966D1C0A7FF2005A63F8 /* Views */,
+				3AA8F0071C097DB8005ACCBD /* AppDelegate.swift */,
+				3AA8F00E1C097DB8005ACCBD /* Assets.xcassets */,
+				3AA8F0101C097DB8005ACCBD /* LaunchScreen.storyboard */,
+				3AA8F0131C097DB8005ACCBD /* Info.plist */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		3AC6966D1C0A7FF2005A63F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AA8F0091C097DB8005ACCBD /* PlayerViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3AC6966E1C0A7FFA005A63F8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3AC696741C0A811D005A63F8 /* Track.swift */,
+				3AC696761C0A816C005A63F8 /* SoundCloudAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		3AC6966F1C0A8072005A63F8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3AC696711C0A808C005A63F8 /* play.png */,
+				3AC696701C0A808C005A63F8 /* pause.png */,
+				3AC6967A1C0A8659005A63F8 /* next.png */,
+				3AC6967C1C0A865E005A63F8 /* previous.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AA8F0031C097DB8005ACCBD /* Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AA8F0161C097DB8005ACCBD /* Build configuration list for PBXNativeTarget "Play" */;
+			buildPhases = (
+				3AA8F0001C097DB8005ACCBD /* Sources */,
+				3AA8F0011C097DB8005ACCBD /* Frameworks */,
+				3AA8F0021C097DB8005ACCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Play;
+			productName = Play;
+			productReference = 3AA8F0041C097DB8005ACCBD /* Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AA8EFFC1C097DB8005ACCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "cs198-1";
+				TargetAttributes = {
+					3AA8F0031C097DB8005ACCBD = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3AA8EFFF1C097DB8005ACCBD /* Build configuration list for PBXProject "Play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AA8EFFB1C097DB8005ACCBD;
+			productRefGroup = 3AA8F0051C097DB8005ACCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AA8F0031C097DB8005ACCBD /* Play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AA8F0021C097DB8005ACCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA8F0121C097DB8005ACCBD /* LaunchScreen.storyboard in Resources */,
+				3AC696731C0A808C005A63F8 /* play.png in Resources */,
+				3AC6967B1C0A8659005A63F8 /* next.png in Resources */,
+				3AC6967D1C0A865E005A63F8 /* previous.png in Resources */,
+				3AA8F00F1C097DB8005ACCBD /* Assets.xcassets in Resources */,
+				3AC696721C0A808C005A63F8 /* pause.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AA8F0001C097DB8005ACCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC696771C0A816C005A63F8 /* SoundCloudAPI.swift in Sources */,
+				3AA8F00A1C097DB8005ACCBD /* PlayerViewController.swift in Sources */,
+				3AA8F0081C097DB8005ACCBD /* AppDelegate.swift in Sources */,
+				3AC696751C0A811D005A63F8 /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AA8F0101C097DB8005ACCBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AA8F0111C097DB8005ACCBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AA8F0141C097DB8005ACCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AA8F0151C097DB8005ACCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AA8F0171C097DB8005ACCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Play/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs198-1.Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AA8F0181C097DB8005ACCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Play/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs198-1.Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AA8EFFF1C097DB8005ACCBD /* Build configuration list for PBXProject "Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA8F0141C097DB8005ACCBD /* Debug */,
+				3AA8F0151C097DB8005ACCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AA8F0161C097DB8005ACCBD /* Build configuration list for PBXNativeTarget "Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA8F0171C097DB8005ACCBD /* Debug */,
+				3AA8F0181C097DB8005ACCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AA8EFFC1C097DB8005ACCBD /* Project object */;
+}
