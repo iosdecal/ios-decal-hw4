@@ -128,11 +128,12 @@ class PlayerViewController: UIViewController {
      *  an AVPlayerItem from a url and updating the player's currentitem
      *  property accordingly.
      */
+    
     func playOrPauseTrack(_ sender: UIButton) {
         let path = Bundle.main.path(forResource: "Info", ofType: "plist")
         let clientID = NSDictionary(contentsOfFile: path!)?.value(forKey: "client_id") as! String
         let track = tracks[currentIndex]
-        let url = URL(string: "https://api.soundcloud.com/tracks/\(track.id as! Int)/stream?client_id=\(clientID)")!
+        let url = URL(string: "https://api.soundcloud.com/tracks/\(track.id as Int)/stream?client_id=\(clientID)")!
         // FILL ME IN
 
     }
