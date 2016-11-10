@@ -1,7 +1,7 @@
 # Homework 4: SoundCloud Player
 
 ## Due
-Tuesday, April 19 at 11:59 PM
+Wednesday, November 16 at 11:59 PM
 
 ## Description
 Last week, we covered some basics of multimedia in iOS. We will be using our
